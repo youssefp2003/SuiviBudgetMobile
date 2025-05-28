@@ -1,0 +1,75 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Suivi Budget</string>
+    <string name="SuiviBudgetApp">Suivi Budget</string>
+
+    <!-- Hints -->
+    <string name="hint_montant">Montant (MAD)</string>
+    <string name="hint_description">Description</string>
+    <string name="hint_categorie">Catégorie</string>
+    <string name="hint_date">Date</string>
+    <string name="hint_search">Rechercher des transactions...</string>
+
+    <!-- Transaction Types -->
+    <string name="type_revenu">Revenu</string>
+    <string name="type_depense">Dépense</string>
+    <string name="transaction_type">Type de transaction</string>
+
+    <!-- Button Labels -->
+    <string name="btn_enregistrer">Enregistrer</string>
+    <string name="btn_mettre_a_jour">Mettre à jour</string>
+    <string name="btn_choose_date">Choisir la date</string>
+    <string name="btn_add_transaction">Ajouter une transaction</string>
+    <string name="btn_view_transactions">Voir toutes les transactions</string>
+    <string name="btn_cancel">Annuler</string>
+    <string name="btn_delete">Supprimer</string>
+    <string name="btn_confirm">Confirmer</string>
+
+    <!-- Titles and Actions -->
+    <string name="title_modifier_transaction">Modifier la transaction</string>
+    <string name="title_liste_transactions">Liste des transactions</string>
+    <string name="title_add_transaction">Nouvelle transaction</string>
+    <string name="action_search">Rechercher</string>
+    <string name="action_filter">Filtrer</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="action_options">Options</string>
+
+    <!-- Item Labels -->
+    <string name="description">Description</string>
+    <string name="category">Catégorie</string>
+    <string name="date">Date</string>
+    <string name="amount">Montant</string>
+    <string name="edit">Modifier</string>
+    <string name="delete">Supprimer</string>
+
+    <!-- Financial Summary -->
+    <string name="solde_actuel">Solde actuel</string>
+    <string name="revenus_totaux">Revenus totaux</string>
+    <string name="depenses_totales">Dépenses totales</string>
+    <string name="apercu_mensuel">Aperçu mensuel</string>
+    <string name="dernieres_transactions">Dernières transactions</string>
+    <string name="voir_tout">Voir tout</string>
+
+    <!-- Filter Options -->
+    <string name="filter_all">Tous</string>
+    <string name="filter_all_types">Tous les types</string>
+    <string name="filter_income">Revenus</string>
+    <string name="filter_expense">Dépenses</string>
+    <string name="filter_all_categories">Toutes catégories</string>
+
+    <!-- Messages -->
+    <string name="msg_transaction_saved">Transaction enregistrée avec succès</string>
+    <string name="msg_transaction_updated">Transaction mise à jour avec succès</string>
+    <string name="msg_transaction_deleted">Transaction supprimée avec succès</string>
+    <string name="msg_error_fields">Veuillez remplir tous les champs</string>
+    <string name="msg_error_amount">Montant invalide</string>
+    <string name="msg_error_saving">Erreur lors de l\'enregistrement</string>
+    <string name="msg_confirm_delete">Êtes-vous sûr de vouloir supprimer cette transaction?</string>
+
+    <!-- Empty States -->
+    <string name="empty_transactions">Aucune transaction trouvée</string>
+    <string name="empty_filtered">Aucune transaction ne correspond aux filtres</string>
+
+    <!-- Date Format -->
+    <string name="date_format">dd/MM/yyyy HH:mm</string>
+</resources>

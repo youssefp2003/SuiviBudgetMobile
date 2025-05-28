@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="fm.mrc.suivibudgetapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/SuiviBudgetApp"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SuiviBudgetApp">
+
+        <!-- SplashActivity : point d'entrée de l'app -->
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Authentification par code PIN -->
+        <activity android:name=".PinSetupActivity" android:exported="false"/>
+        <activity android:name=".LockActivity" android:exported="false"/>
+
+        <!-- Activité principale (accueil) -->
+        <activity android:name=".MainActivity" android:exported="false"/>
+
+        <!-- Ajouter une transaction -->
+        <activity android:name=".AddTransactionActivity" android:exported="false"/>
+
+        <!-- Liste des transactions -->
+        <activity android:name=".TransactionListActivity" android:exported="false"/>
+
+        <!-- Modifier une transaction -->
+        <activity android:name=".EditTransactionActivity" android:exported="false"/>
+
+    </application>
+</manifest>

@@ -1,4 +1,3 @@
-markdown
 # BudgetTracker App 💰
 A secure mobile budgeting application with PIN authentication
 
@@ -52,47 +51,6 @@ Open in Android Studio
 
 Build and run on emulator/device
 
-📝 Code Examples
-PIN Verification
-java
-// In LockActivity.java
-SharedPreferences prefs = getSharedPreferences("auth_prefs", MODE_PRIVATE);
-String savedPin = prefs.getString("pin_code", null);
-
-if (enteredPin.equals(savedPin)) {
-    startActivity(new Intent(this, MainActivity.class));
-}
-Transaction Insertion
-java
-// In DatabaseHelper.java
-public long insertTransaction(double amount, String description, 
-                           String type, String category) {
-    SQLiteDatabase db = this.getWritableDatabase();
-    ContentValues values = new ContentValues();
-    values.put("amount", amount);
-    values.put("description", description);
-    values.put("type", type);
-    values.put("category", category);
-    return db.insert("transactions", null, values);
-}
 📜 License
-MIT License - See LICENSE file for details
+[MIT License](LICENSE)
 
-Note: For production use, consider implementing:
-
-Biometric authentication
-
-Cloud backup functionality
-
-Enhanced data encryption
-
-💡 Pro Tip: Use the latest Android Studio version for optimal performance
-
-
-This README includes:
-1. Visual hierarchy with emojis
-2. Clear section organization
-3. Technical details
-4. Security documentation
-5. Ready-to-use code snippets
-6. Professional formatting

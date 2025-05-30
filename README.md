@@ -21,6 +21,7 @@ A secure mobile budgeting application with PIN authentication
 | Minimum SDK      | API 24 (Android 7.0) |
 
 ## 📂 Project Structure
+```text
 BudgetTracker/
 ├── app/
 │ ├── src/main/
@@ -35,7 +36,7 @@ BudgetTracker/
 │ └── build.gradle # Module-level config
 ├── build.gradle # Project-level config
 └── README.md # This file
-
+```
 
 ## 🔒 Security Implementation
 - PIN storage: Encrypted SharedPreferences
@@ -47,7 +48,7 @@ BudgetTracker/
 1. Clone the repository:
 ```bash
 git clone https://github.com/yourusername/BudgetTracker.git
-
+```
 Open in Android Studio
 
 Build and run on emulator/device

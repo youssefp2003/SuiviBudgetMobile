@@ -49,6 +49,7 @@ BudgetTracker/
 ```bash
 git clone https://github.com/yourusername/BudgetTracker.git
 ```
+
 Open in Android Studio
 
 Build and run on emulator/device
